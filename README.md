@@ -65,7 +65,7 @@ Due to nthe limitation of not having access to the main router in the house be i
 - Custom CAT6a ethernet cables for all devices in my bedroom, terminated at a patch panel within the rack  
 - Internal domain names for my PC and server for reliable server access  
   
-## Bedroom Accommodations  
+## Livingspace Accommodations  
 Since my rack will be residing in my bedroom for the forseeable future, I've taken the following measures to ensure I can still live comfortably  
 - Fanless switch  
 - Quiet UPS  
