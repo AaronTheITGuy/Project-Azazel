@@ -38,7 +38,8 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
 - Unraid OS  
 - PLex and Jellyfin for media hosting  
 - Tailscale for remote access  
-- iVentoy to host network booting  
+- iVentoy to host network booting
+- Gmail-based server event notifications with archival alert logging
   
 ### Data Loss Prevention  
 - Previously mentioned redundancy in my array and cache  
