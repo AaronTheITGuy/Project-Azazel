@@ -27,10 +27,12 @@ From top to bottom, my server includes the following:
 - ASRock B760 Pro RS/D4  
 - RTX 3070  
 - 48GB DDR4 RAM  
-- 7TB of HDD storage in a RAID 5  
-- 500GB of NVMe storage for array caching in a RAID 1  
+- 7TB of HDD storage, single redundancy (similar to RAID 5) 
+- 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1). 
 - SFP+ NIC for 10Gbps transfer speeds directly connected to my main PC  
-- LSI SAS 9300-8i HBA for reliable high speed reads/writes to and from the array  
+- LSI SAS 9300-8i HBA for reliable high speed reads/writes to and from the array
+
+Disclaimer: The CPU and GPU selected for this build are not the most power-efficient choices for my intended workload. However, these components were repurposed from a previous system upgrade to reduce costs and avoid unnecessary electronic waste. That being said, it also adds plenty of overhead should I decide to explore VMs or LLMs
   
 ### Software/Services  
 - Unraid OS  
