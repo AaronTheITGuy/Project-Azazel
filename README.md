@@ -75,4 +75,4 @@ Since my rack will be residing in my bedroom for the foreseeable future, I've ta
 - CPU undervolt to limit heat output  
 
 ## To Conclude...
-As of today, this is as far as this project has gone. However, that's not to say I'm finished. Azazel has been specifically designed to grow alongside me, so stay tuned for any and all future upgrades future upgrades and improvements for Azazel
+As of today, this is as far as this project has gone. However, that's not to say I'm finished. Azazel has been specifically designed to grow alongside me, so stay tuned for any and all future upgrades and improvements for Azazel
