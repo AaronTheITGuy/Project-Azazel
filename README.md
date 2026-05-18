@@ -3,7 +3,7 @@ Project Azazel is the name I've given my personal homelabbing project. Built to 
   
 ## Overview  
 This project originally began as a way to repurpose parts leftover from upgrading my PC. I wanted to give those parts a second life outside of sitting in a random drawer or a landfill. Now it's become a passion project that includes the following:  
-- Network attached storage  
+- Network-attached storage  
 - Media hosting  
 - Remote access and monitoring  
 - Subnetting, DNS, and DHCP configurations  
@@ -28,7 +28,7 @@ From top to bottom, my server includes the following:
 - RTX 3070  
 - 48GB DDR4 RAM  
 - 7TB of HDD storage, single redundancy (similar to RAID 5) 
-- 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1). 
+- 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1) 
 - SFP+ NIC for 10Gbps transfer speeds directly connected to my main PC  
 - LSI SAS 9300-8i HBA for reliable high speed reads/writes to and from the array
 
@@ -59,7 +59,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   - Steps to take to recover that data once the backup location has been reached
   
 ## The Network  
-Due to the limitation of not having access to the main router in the house be it physical or administrative, I've been forced to get creative. Thus, my networking situation is as follows:  
+Due to the limitation of the main house router being inaccessible to me be it physical or administrative access, I've been forced to get creative. Thus, my networking situation is as follows:  
 - WiFi 7 router as the head of my personal subnet with a WiFi uplink to the main router  
 - 24 port managed switch featuring gigabit speeds and 4 SFP ports  
 - Custom CAT6a ethernet cables for all devices in my bedroom, terminated at a patch panel within the rack  
@@ -75,4 +75,4 @@ Since my rack will be residing in my bedroom for the foreseeable future, I've ta
 - CPU undervolt to limit heat output  
 
 ## To Conclude...
-As of today, this is as far as this project has gone. However, that's not to say I'm finished. Azazel has been specifically designed to grow alongside me, so stay tuned for any and all future upgrades that Azazel has yet to receive
+As of today, this is as far as this project has gone. However, that's not to say I'm finished. Azazel has been specifically designed to grow alongside me, so stay tuned for any and all future upgrades future upgrades and improvements for Azazel
