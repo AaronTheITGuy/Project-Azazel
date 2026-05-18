@@ -58,14 +58,14 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   - Multiple access routes should one of the NICs go down  
   - Steps to take to recover that data once the backup location has been reached
   
-##  The Network  
+## The Network  
 Due to nthe limitation of not having access to the main router in the house be it physical or administrative, I've been forced to get creative. Thus, my networking situation is as follows:  
 - WiFi 7 router as the head of my personal subnet with a WiFi uplink to the main router  
 - 24 port managed switch featuring gigabit speeds and 4 SFP ports  
 - Custom CAT6a ethernet cables for all devices in my bedroom, terminated at a patch panel within the rack  
 - Internal domain names for my PC and server for reliable server access  
   
-## Livingspace Accommodations  
+## Living Space Accommodations  
 Since my rack will be residing in my bedroom for the forseeable future, I've taken the following measures to ensure I can still live comfortably  
 - Fanless switch  
 - Quiet UPS  
@@ -73,3 +73,6 @@ Since my rack will be residing in my bedroom for the forseeable future, I've tak
 - 3D printed shrouds to cover any lights, such as the light on my PDU power switch for example  
 - Disk spindown in Unraid to reduce heat produced by the array  
 - CPU undervolt to limit heat output  
+
+## To Conclude...
+As of today, this is as far as this project has gone. However, that's not to say I'm finished. Azazel has been specifically designed to grow alongside me, so stay tuned for any and all future upgrades that Azazel has yet to receive
