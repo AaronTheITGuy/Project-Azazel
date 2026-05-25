@@ -14,6 +14,7 @@ This project originally began as a way to repurpose parts leftover from upgradin
   
 ## Rack Layout  
 From top to bottom, my server includes the following:  
+- Gl-iNet Flint 3 router  
 - 1U PDU  
 - 1U 24 port patch panel  
 - 1U fanless managed switch (TP-Link SG2428LP)  
@@ -60,7 +61,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   
 ## The Network  
 Due to the limitation of the main house router being inaccessible to me be it physical or administrative access, I've been forced to get creative. Thus, my networking situation is as follows:  
-- WiFi 7 router as the head of my personal subnet with a WiFi uplink to the main router  
+- Wired ethernet backhaul from the downstairs main router into my subnet router
 - 24 port managed switch featuring gigabit speeds and 4 SFP ports  
 - Custom CAT6a ethernet cables for all devices in my bedroom, terminated at a patch panel within the rack  
 - Internal domain names for my PC and server for reliable server access  
@@ -76,3 +77,6 @@ Since my rack will be residing in my bedroom for the foreseeable future, I've ta
 
 ## To Conclude...
 As of today, this is as far as this project has gone. However, that's not to say I'm finished. Azazel has been specifically designed to grow alongside me, so stay tuned for any and all future upgrades and improvements for Azazel
+
+## Changelog
+5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection
