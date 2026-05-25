@@ -60,7 +60,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   - Steps to take to recover that data once the backup location has been reached
   
 ## The Network  
-Due to the limitation of the main house router being inaccessible to me be it physical or administrative access, I've been forced to get creative. Thus, my networking situation is as follows:  
+Due to the limitation of the main house router being inaccessible to me as far as administrative access goes and physical access is currently limited to a single wall jack, I've been forced to get a little creative. Thus, my networking situation is as follows:  
 - Wired ethernet backhaul from the downstairs main router into my subnet router
 - 24 port managed switch featuring gigabit speeds and 4 SFP ports  
 - Custom CAT6a ethernet cables for all devices in my bedroom, terminated at a patch panel within the rack  
