@@ -79,5 +79,5 @@ Since my rack will be residing in my bedroom for the foreseeable future, I've ta
 As of today, this is as far as this project has gone. However, that's not to say I'm finished. Azazel has been specifically designed to grow alongside me, so stay tuned for any and all future upgrades and improvements for Azazel
 
 ## Changelog
-5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection
-5/26/2026 - Added inside/outside pictures of the server
+5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection  
+5/26/2026 - Added inside/outside pictures of the server  
