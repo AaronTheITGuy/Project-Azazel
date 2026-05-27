@@ -28,7 +28,7 @@ From top to bottom, my server includes the following:
 - ASRock B760 Pro RS/D4  
 - RTX 3070  
 - 48GB DDR4 RAM  
-- 7TB of HDD storage, single redundancy (similar to RAID 5) 
+- 8TB of HDD storage, single redundancy (similar to RAID 5) 
 - 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1) 
 - SFP+ NIC for 10Gbps transfer speeds directly connected to my main PC  
 - LSI SAS 9300-8i HBA for reliable high speed reads/writes to and from the array
@@ -80,4 +80,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 ## Changelog
 5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection  
-5/26/2026 - Added inside/outside pictures of the server  
+5/26/2026 - Added inside/outside pictures of the server, updated array capacity
