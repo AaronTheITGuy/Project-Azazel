@@ -80,3 +80,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 ## Changelog
 5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection
+5/26/2026 - Added inside/outside pictures of the server
