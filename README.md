@@ -14,13 +14,13 @@ This project originally began as a way to repurpose parts leftover from upgradin
   
 ## Rack Layout  
 From top to bottom, my server includes the following:  
-- Gl-iNet Flint 3 router  
 - 1U PDU  
 - 1U 24 port patch panel  
-- 1U fanless managed switch (TP-Link SG2428LP)  
-- 2U drawer unit  
+- 1U fanless managed switch (TP-Link SG2428LP)
 - 1U UPS (CyberPower CP700PFCRM1U)  
-- 4U server chassis (Sliger CX-4712)  
+- 2U drawer unit  
+- 4U server chassis (Sliger CX-4712)
+- Gl-iNet Flint 3 router (on the floor under the rack since it's not broadcasting WiFi)  
   
 ## The Server; Azazel  
 ### Hardware  
@@ -80,4 +80,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 ## Changelog
 5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection  
-5/26/2026 - Added inside/outside pictures of the server, updated array capacity, removed Plex  
+5/26/2026 - Added inside/outside pictures of the server, updated array capacity, removed Plex, updated router placement  
