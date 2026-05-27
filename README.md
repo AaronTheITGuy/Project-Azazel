@@ -37,7 +37,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   
 ### Software/Services  
 - Unraid OS  
-- Plex and Jellyfin for media hosting  
+- Jellyfin for media hosting  
 - Tailscale for remote access  
 - iVentoy to host network booting
 - Gmail-based server event notifications with archival alert logging
@@ -80,4 +80,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 ## Changelog
 5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection  
-5/26/2026 - Added inside/outside pictures of the server, updated array capacity
+5/26/2026 - Added inside/outside pictures of the server, updated array capacity, removed Plex  
