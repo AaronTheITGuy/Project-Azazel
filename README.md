@@ -50,6 +50,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   - Appdata folder on the cache SSD (automatic, monthly)  
   - Recovery database  
   - Data recovery map
+  - Internal 500GB Sata SSD to serve as a mirror to the USB backup  
 - The recovery database is a database built in SQLite that includes information on how to rebuild my data or configurations that either have no decent backup solution or none at all, including:  
   - All media including titles, release years, resolutions, and sub libraries  
   - Drive records including brand names, drive types, models, serial numbers, storage capacities, roles, in-system location, usage status (active or inactive), condition on acquisition, and installation date  
@@ -81,3 +82,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 ## Changelog
 5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection  
 5/26/2026 - Added inside/outside pictures of the server, updated array capacity, removed Plex, updated router placement  
+5/29/2026 - Added sata mirror for recovery USB SSD  
