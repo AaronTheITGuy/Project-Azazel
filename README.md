@@ -30,7 +30,7 @@ From top to bottom, my server includes the following:
 - 48GB DDR4 RAM  
 - 8TB of HDD storage, single redundancy (similar to RAID 5) 
 - 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1) 
-- SFP+ NIC for 10Gbps transfer speeds directly connected to my main PC  
+- SFP+ NIC for 10Gbps transfer speeds directly connected to my main PC (via M.2 to PCIe riser cable)  
 - LSI SAS 9300-8i HBA for reliable high speed reads/writes to and from the array
 
 Disclaimer: The CPU and GPU selected for this build are not the most power-efficient choices for my intended workload. However, these components were repurposed from a previous system upgrade to reduce costs and avoid unnecessary electronic waste. That being said, it also adds plenty of overhead should I decide to explore VMs or LLMs
@@ -83,4 +83,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 ## Changelog
 5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection  
 5/26/2026 - Added inside/outside pictures of the server, updated array capacity, removed Plex, updated router placement  
-5/29/2026 - Added sata mirror for recovery USB SSD, added UPS monitoring  
+5/29/2026 - Added sata mirror for recovery USB SSD, added UPS monitoring, added mention of M.2 to PCIe riser cable for SFP+ NIC  
