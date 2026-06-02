@@ -84,3 +84,5 @@ As of today, this is as far as this project has gone. However, that's not to say
 5/24/2026 - Upgraded from WiFi WAN backhaul to a wired ethernet connection  
 5/26/2026 - Added inside/outside pictures of the server, updated array capacity, removed Plex, updated router placement  
 5/29/2026 - Added sata mirror for recovery USB SSD, added UPS monitoring, added mention of M.2 to PCIe riser cable for SFP+ NIC  
+6/1/2026 - Added images "drive-database.png" and "Drive-groupID-legend.png"  
+
