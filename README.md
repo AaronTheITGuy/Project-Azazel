@@ -29,7 +29,8 @@ From top to bottom, my server includes the following:
 - RTX 3070  
 - 48GB DDR4 RAM  
 - 8TB of HDD storage, single redundancy (similar to RAID 5) 
-- 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1) 
+- 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1)
+- 240GB of mirrored sata SSD storage for the boot drive
 - SFP+ NIC for 10Gbps transfer speeds directly connected to my main PC (via M.2 to PCIe riser cable)  
 - LSI SAS 9300-8i HBA for reliable high speed reads/writes to and from the array
 
@@ -85,4 +86,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 5/26/2026 - Added inside/outside pictures of the server, updated array capacity, removed Plex, updated router placement  
 5/29/2026 - Added sata mirror for recovery USB SSD, added UPS monitoring, added mention of M.2 to PCIe riser cable for SFP+ NIC  
 6/1/2026 - Added images "drive-database.png" and "Drive-groupID-legend.png"  
-
+6/2/2026 - Updated Unraid from 7.2.4 to 7.3.1, upgraded boot drive from USB drive to mirrored sata SSD pool
