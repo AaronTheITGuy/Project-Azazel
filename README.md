@@ -28,9 +28,9 @@ From top to bottom, my server includes the following:
 - ASRock B760 Pro RS/D4  
 - RTX 3070  
 - 48GB DDR4 RAM  
-- 8TB of HDD storage, single redundancy (similar to RAID 5) 
-- 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1)
-- 240GB of mirrored sata SSD storage for the boot drive
+- 8TB of HDD storage, single redundancy (similar to RAID 5), XFS filesystem
+- 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1) BTRFS filesystem
+- 240GB of mirrored sata SSD storage for the boot drive, ZFS filesystem
 - SFP+ NIC for 10Gbps transfer speeds directly connected to my main PC (via M.2 to PCIe riser cable)  
 - LSI SAS 9300-8i HBA for reliable high speed reads/writes to and from the array
 
@@ -46,13 +46,13 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   
 ### Data Loss Prevention  
 - Previously mentioned redundancy in my array and cache  
-- External USB 3.0 SSD to store backups of:  
+- External USB 3.0 SSD (NTFS) to store backups of:  
   - My main PC's boot drive (automatic, monthly)  
   - Unraid's boot USB (automatic, monthly)  
   - Appdata folder on the cache SSD (automatic, monthly)  
   - Recovery database  
   - Data recovery map
-  - Internal 500GB Sata SSD to serve as a mirror to the USB backup drive  
+  - Internal 500GB Sata SSD (BTRFS) to serve as a mirror to the USB backup drive  
 - The recovery database is a database built in SQLite that includes information on how to rebuild my data or configurations that either have no decent backup solution or none at all, including:  
   - All media including titles, release years, resolutions, and sub libraries  
   - Drive records including brand names, drive types, models, serial numbers, storage capacities, roles, in-system location, usage status (active or inactive), condition on acquisition, and installation date  
@@ -86,4 +86,5 @@ As of today, this is as far as this project has gone. However, that's not to say
 5/26/2026 - Added inside/outside pictures of the server, updated array capacity, removed Plex, updated router placement  
 5/29/2026 - Added sata mirror for recovery USB SSD, added UPS monitoring, added mention of M.2 to PCIe riser cable for SFP+ NIC  
 6/1/2026 - Added images "drive-database.png" and "Drive-groupID-legend.png"  
-6/2/2026 - Updated Unraid from 7.2.4 to 7.3.1, upgraded boot drive from USB drive to mirrored sata SSD pool
+6/2/2026 - Updated Unraid from 7.2.4 to 7.3.1, upgraded boot drive from USB drive to mirrored sata SSD pool  
+6/3/2026 - Specified filesystems, added picture of drive bays
