@@ -94,6 +94,6 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 6/3/2026 - Specified filesystems, added picture of drive bays  
 
-6/5/2026 - Updated title from "README.md" to "Azazel - Primary Records.md", added "Future Goals And Upcoming Projects.md"  
+6/5/2026 - Updated title from "README.md" to "Azazel - Primary Records.md", added "Future Goals And Upcoming Projects.md", moved images to "Images" folder  
 
 
