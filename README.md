@@ -61,6 +61,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   - Headers to categorize data recovery paths  
   - Multiple access routes should one of the NICs go down  
   - Steps to take to recover that data once the backup location has been reached
+- Set up Robocopy in Task Scheduler on PC to backup smaller folders from the backup SSD to OneDrive on login
   
 ## The Network  
 Due to the limitation of the main house router being inaccessible to me as far as administrative access goes and physical access is currently limited to a single wall jack, I've been forced to get a little creative. Thus, my networking situation is as follows:  
@@ -96,4 +97,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 6/5/2026 - Added "Future Goals And Upcoming Projects.md", moved images to "Images" folder  
 
-
+6/7/2026 - Added robocopy from Backup SSD to OneDrive
