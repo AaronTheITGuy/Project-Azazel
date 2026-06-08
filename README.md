@@ -98,3 +98,6 @@ As of today, this is as far as this project has gone. However, that's not to say
 6/5/2026 - Added "Future Goals And Upcoming Projects.md", moved images to "Images" folder  
 
 6/7/2026 - Added robocopy from Backup SSD to OneDrive
+
+6/7/2026 - Updated images
+
