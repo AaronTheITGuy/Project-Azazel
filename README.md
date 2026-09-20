@@ -52,7 +52,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   - Appdata folder on the cache SSD (automatic, monthly)  
   - Recovery database  
   - Data recovery map
-  - Internal 500GB Sata SSD (BTRFS) to serve as a mirror to the USB backup drive  
+- Internal 500GB Sata SSD (BTRFS) to serve as a mirror to the USB backup drive  
 - The recovery database is a database built in SQLite that includes information on how to rebuild my data or configurations that either have no decent backup solution or none at all, including:  
   - All media including titles, release years, resolutions, and sub libraries  
   - Drive records including brand names, drive types, models, serial numbers, storage capacities, roles, in-system location, usage status (active or inactive), condition on acquisition, and installation date  
@@ -62,13 +62,16 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
   - Multiple access routes should one of the NICs go down  
   - Steps to take to recover that data once the backup location has been reached
 - Set up Robocopy in Task Scheduler on PC to backup smaller folders from the backup SSD to OneDrive on login
+- DVD-R with any small files that don't get updated often (license keys, script backups, etc.)
   
 ## The Network  
-Due to the limitation of the main house router being inaccessible to me as far as administrative access goes and physical access is currently limited to a single wall jack, I've been forced to get a little creative. Thus, my networking situation is as follows:  
-- Wired ethernet backhaul from the downstairs main router into my subnet router
+Due to the limitation of the main house router being inaccessible to me as far as administrative access goes and physical access is currently unavailable, I've been forced to get a little creative. Thus, my networking situation is as follows:  
+- Wireless backhaul from the main router into my subnet router
 - 24 port managed switch featuring gigabit speeds and 4 SFP ports  
 - Custom CAT6a ethernet cables for all devices in my bedroom, terminated at a patch panel within the rack  
-- Internal domain names for my PC and server for reliable server access  
+- Internal domain names for my PC and server for reliable server access
+
+I previously had a wired connection from the main router to my personal one, but my family and I have since moved houses. I once again lack an ethernet jack in my bedroom, so wireless is my only option for right now
   
 ## Living Space Accommodations  
 Since my rack will be residing in my bedroom for the foreseeable future, I've taken the following measures to ensure I can still live comfortably  
@@ -101,3 +104,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 6/7/2026 - Updated images
 
+9/19/2026 - Removed wired backhaul, added DVD backup
