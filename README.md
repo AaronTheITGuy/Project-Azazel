@@ -107,4 +107,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 9/19/2026 - Removed wired backhaul, added DVD backup
 
-9/22/2026 - Updated Network Diagram, added VM info, updated array capacity to 7TB, updated router location
+9/22/2026 - Updated Network Diagram, added VM info, updated array capacity to 7TB, updated router location, updated drive allocation DB image
