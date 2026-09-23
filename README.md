@@ -14,13 +14,13 @@ This project originally began as a way to repurpose parts leftover from upgradin
   
 ## Rack Layout  
 From top to bottom, my server includes the following:  
+- Gl-iNet Flint 3 router (up high above the rack)  
 - 1U PDU  
 - 1U 24 port patch panel  
 - 1U fanless managed switch (TP-Link SG2428LP)
 - 1U UPS (CyberPower CP700PFCRM1U)  
 - 2U drawer unit  
 - 4U server chassis (Sliger CX-4712)
-- Gl-iNet Flint 3 router (on the floor under the rack since it's not broadcasting WiFi)  
   
 ## The Server; Azazel  
 ### Hardware  
@@ -107,4 +107,4 @@ As of today, this is as far as this project has gone. However, that's not to say
 
 9/19/2026 - Removed wired backhaul, added DVD backup
 
-9/22/2026 - Updated Network Diagram, added VM info, updated array capacity to 7TB
+9/22/2026 - Updated Network Diagram, added VM info, updated array capacity to 7TB, updated router location
