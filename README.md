@@ -28,7 +28,7 @@ From top to bottom, my server includes the following:
 - ASRock B760 Pro RS/D4  
 - RTX 3070  
 - 48GB DDR4 RAM  
-- 8TB of HDD storage, single redundancy (similar to RAID 5), XFS filesystem
+- 7TB of HDD storage, single redundancy (similar to RAID 5), XFS filesystem
 - 500GB of NVMe storage for array caching in a mirrored configuration (similar to RAID 1) BTRFS filesystem
 - 240GB of mirrored sata SSD storage for the boot drive, ZFS filesystem
 - SFP+ NIC for 10Gbps transfer speeds directly connected to my main PC (via M.2 to PCIe riser cable)  
@@ -43,6 +43,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
 - iVentoy to host network booting
 - Gmail-based server event notifications with archival alert logging
 - UPS monitoring so that, should the generator fail to kick on, Azazel will trigger a graceful shutdown
+- Windows 10 VM with Nero Video, Handbrake, and MediaInfo for disc authoring and burning (up to 50GB Blu-Ray discs)
   
 ### Data Loss Prevention  
 - Previously mentioned redundancy in my array and cache  
@@ -105,3 +106,5 @@ As of today, this is as far as this project has gone. However, that's not to say
 6/7/2026 - Updated images
 
 9/19/2026 - Removed wired backhaul, added DVD backup
+
+9/22/2026 - Updated Network Diagram, added VM info, updated array capacity to 7TB
