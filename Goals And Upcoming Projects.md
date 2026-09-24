@@ -5,7 +5,7 @@ This os where any and all plans for the future will go. It's essentially my pers
 ## Future Additions And Upgrades
 Anything appearing here is almost guaranteed to happen, consider it a to-do list  
 
-- Transition from single parity and 8TB of storage to dual parity with at least 32TB of storage
+- Transition from single parity and 7TB of storage to dual parity with at least 32TB of storage
 - Full testbench functionality including network booting and a file share for apps, drivers, and more
 
 
