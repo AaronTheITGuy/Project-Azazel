@@ -44,6 +44,7 @@ Disclaimer: The CPU and GPU selected for this build are not the most power-effic
 - Gmail-based server event notifications with archival alert logging
 - UPS monitoring so that, should the generator fail to kick on, Azazel will trigger a graceful shutdown
 - Windows 10 VM with Nero Video, Handbrake, and MediaInfo for disc authoring and burning (up to 50GB Blu-Ray discs)
+- Internal DNS resolution via AdGuard on router
   
 ### Data Loss Prevention  
 - Previously mentioned redundancy in my array and cache  
